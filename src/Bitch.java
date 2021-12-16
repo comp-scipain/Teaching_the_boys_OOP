@@ -31,4 +31,16 @@ public class Bitch {
     public int getAge() {
         return age;
     }
+
+    public void printInfo () {
+        System.out.println("Their name is " + getName() + ".");
+        System.out.println("They are " + getAge() + " years old.");
+        if (getGender()) {
+            System.out.println("You are straight my niggalo");
+        } else if (!getGender()) {
+            System.out.println("You are gay. lmao");
+        } else {
+            System.out.println("I don't know how you are seeing this");
+        }
+    }
 }

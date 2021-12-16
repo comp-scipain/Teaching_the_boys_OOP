@@ -93,6 +93,14 @@ public class Beat extends Bitch {
             System.out.println("I don't know how you are seeing this");
         }
 
+        System.out.println("The bitches you created:");
+        System.out.println("This is the first bitch you created.");
+        bitch1.printInfo();
+
+        System.out.println(" ");
+        System.out.println("This is the second bitch you created");
+        bitch2.printInfo();
+
 
     }
 
